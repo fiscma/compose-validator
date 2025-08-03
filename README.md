@@ -1,4 +1,4 @@
-#compose-validator
+# compose-validator
 
 A tiny, expressive validation DSL for Java. 
 Because writing if statements everywhere drains you lifeforce faster
