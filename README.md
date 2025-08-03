@@ -9,7 +9,7 @@ than a mindflayer can suck your brain dry
 You’ve got data models. 
 You’ve got constraints. 
 
-You could spread null checks and ifs, 
+You could spread *null* checks and *if*s, 
 nest them like rusian dolls 
 and barf them all over your codebase.
 
