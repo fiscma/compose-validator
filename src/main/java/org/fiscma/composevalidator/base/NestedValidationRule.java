@@ -1,4 +1,4 @@
-package org.fiscma.composevalidator;
+package org.fiscma.composevalidator.base;
 
 import java.util.function.Function;
 

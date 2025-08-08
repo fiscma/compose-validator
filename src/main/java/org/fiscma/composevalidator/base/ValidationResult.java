@@ -1,4 +1,4 @@
-package org.fiscma.composevalidator;
+package org.fiscma.composevalidator.base;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -16,7 +16,7 @@ public class ValidationResult {
 
     /**
      * adds a validation error
-     * @param error
+     * @param error the validation error
      */
     public void addError(String error) {
         errors.add(error);

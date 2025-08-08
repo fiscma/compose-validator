@@ -1,4 +1,4 @@
-package org.fiscma.composevalidator;
+package org.fiscma.composevalidator.base;
 
 import org.fiscma.composevalidator.testentities.Address;
 import org.fiscma.composevalidator.testentities.Customer;
@@ -7,7 +7,7 @@ import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertFalse;
 
-public class ValidatorTest {
+public class BaseValidatorTest {
 
     @Test
     void testCustomerValidation() {
