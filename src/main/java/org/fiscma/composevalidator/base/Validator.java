@@ -1,10 +1,9 @@
-package org.fiscma.composevalidator;
+package org.fiscma.composevalidator.base;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.function.Function;
 import java.util.function.Predicate;
-import java.util.logging.Logger;
 
 /**
  * @author Martin Fischer
@@ -17,7 +16,7 @@ public class Validator<T> {
     private final List<ValidationRule<T, ?>> rules = new ArrayList<>();
 
     public static <T> Validator<T> of() {
-        return new Validator<T>();
+        return new Validator<>();
     }
 
     public <V> Validator<T> field(Function<T, V> extractor, Predicate<V> predicate, String error) {
